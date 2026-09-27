@@ -162,25 +162,6 @@
       "license": "MIT"
     },
     {
-      "name": "ask-questions-if-underspecified",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/trailofbits/skills.git",
-        "path": "plugins/ask-questions-if-underspecified"
-      },
-      "description": "Clarify ambiguous requirements by asking questions before implementing. Only when invoked explicitly.",
-      "version": "1.0.1",
-      "author": {
-        "username": "trailofbits",
-        "name": "Kevin Valerio"
-      },
-      "category": "development",
-      "tags": [
-        "skills"
-      ],
-      "license": "MIT"
-    },
-    {
       "name": "astral-plugins",
       "source": {
         "source": "git-subdir",
@@ -260,8 +241,9 @@
     {
       "name": "axiom-apple-skills",
       "source": {
-        "source": "github",
-        "repo": "CharlesWiltgen/Axiom"
+        "source": "git-subdir",
+        "url": "https://github.com/CharlesWiltgen/Axiom.git",
+        "path": ".claude-plugin/plugins/axiom"
       },
       "description": "Battle-tested skills for iOS, iPadOS, watchOS, and tvOS development",
       "version": "1.0.0",
@@ -489,7 +471,8 @@
       },
       "category": "documentation",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -609,8 +592,9 @@
     {
       "name": "ccpm",
       "source": {
-        "source": "github",
-        "repo": "automazeio/ccpm"
+        "source": "git-subdir",
+        "url": "https://github.com/automazeio/ccpm.git",
+        "path": "skill/ccpm"
       },
       "description": "Project management for Claude Code using GitHub Issues",
       "version": "1.0.0",
@@ -645,8 +629,9 @@
     {
       "name": "claude-aws-cost-saver",
       "source": {
-        "source": "github",
-        "repo": "prajapatimehul/claude-aws-cost-saver"
+        "source": "git-subdir",
+        "url": "https://github.com/prajapatimehul/claude-aws-cost-saver.git",
+        "path": "plugins/aws-cost-saver"
       },
       "description": "Finds AWS cost savings with 163 checks across 30+ services",
       "version": "1.0.0",
@@ -1210,31 +1195,6 @@
       "license": "Apache-2.0"
     },
     {
-      "name": "coding-tutor",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/EveryInc/compound-engineering-plugin.git",
-        "path": "plugins/coding-tutor"
-      },
-      "description": "Personalized coding tutorials that build on your existing knowledge and use your actual codebase for examples. Includes spaced repetition quizzes to reinforce learning. Includes 3 commands and 1 skill.",
-      "version": "1.0.0",
-      "author": {
-        "username": "EveryInc",
-        "name": "Nityesh Agarwal"
-      },
-      "category": "documentation",
-      "tags": [
-        "coding",
-        "programming",
-        "tutorial",
-        "learning",
-        "spaced-repetition",
-        "education",
-        "other"
-      ],
-      "license": "MIT"
-    },
-    {
       "name": "comfy-claude-prompt-library",
       "source": {
         "source": "github",
@@ -1255,9 +1215,8 @@
     {
       "name": "compound-engineering",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/EveryInc/compound-engineering-plugin.git",
-        "path": "plugins/compound-engineering"
+        "source": "github",
+        "repo": "EveryInc/compound-engineering-plugin"
       },
       "description": "AI-powered development tools that get smarter with every use. Make each unit of engineering work easier than the last.",
       "version": "1.0.0",
@@ -1422,7 +1381,6 @@
       },
       "category": "development",
       "tags": [
-        "skills",
         "agents",
         "hooks",
         "commands"
@@ -1489,25 +1447,6 @@
       "license": "MIT"
     },
     {
-      "name": "debug-buttercup",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/trailofbits/skills.git",
-        "path": "plugins/debug-buttercup"
-      },
-      "description": "Debug Buttercup Kubernetes deployments",
-      "version": "1.0.0",
-      "author": {
-        "username": "trailofbits",
-        "name": "Ronald Eytchison"
-      },
-      "category": "devops",
-      "tags": [
-        "skills"
-      ],
-      "license": "MIT"
-    },
-    {
       "name": "demo-video",
       "source": {
         "source": "git-subdir",
@@ -1550,7 +1489,7 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/shinpr/claude-code-workflows.git",
-        "path": "skills-only"
+        "path": "dev-skills"
       },
       "description": "Lightweight skills for users with existing workflows - coding best practices, testing principles, and design guidelines without recipe workflows or agents",
       "version": "1.0.0",
@@ -1569,7 +1508,7 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/shinpr/claude-code-workflows.git",
-        "path": "frontend"
+        "path": "dev-workflows-frontend"
       },
       "description": "Skills + Subagents for React/TypeScript - Use skills for coding guidance, or run recipe workflows for full orchestrated agentic coding with specialized agents",
       "version": "1.0.0",
@@ -1588,7 +1527,7 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/shinpr/claude-code-workflows.git",
-        "path": "backend"
+        "path": "dev-workflows"
       },
       "description": "Skills + Subagents for backend development - Use skills for coding guidance, or run recipe workflows for full orchestrated agentic coding with specialized agents",
       "version": "1.0.0",
@@ -1674,7 +1613,7 @@
       },
       "category": "devops",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -1731,7 +1670,7 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "commands"
       ],
       "license": "MIT"
     },
@@ -2006,7 +1945,7 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/elastic/agent-skills.git",
-        "path": "skills/cloud"
+        "path": "plugins/cloud"
       },
       "description": "Elastic Cloud skills — project setup, access management, network security, and Serverless project lifecycle",
       "version": "0.2.1",
@@ -2025,7 +1964,7 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/elastic/agent-skills.git",
-        "path": "skills/elasticsearch"
+        "path": "plugins/elasticsearch"
       },
       "description": "Elasticsearch skills — ES|QL queries, data ingestion, security (authn, authz, audit), and troubleshooting",
       "version": "0.2.1",
@@ -2044,7 +1983,7 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/elastic/agent-skills.git",
-        "path": "skills/kibana"
+        "path": "plugins/kibana"
       },
       "description": "Kibana skills — dashboards, alerting rules, connectors, Vega visualizations, Agent Builder, streams, and audit logging",
       "version": "0.2.1",
@@ -2063,7 +2002,7 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/elastic/agent-skills.git",
-        "path": "skills/observability"
+        "path": "plugins/observability"
       },
       "description": "Elastic Observability skills — OpenTelemetry instrumentation and migration (.NET, Java, Python), LLM observability, log search, SLOs, and service health",
       "version": "0.2.1",
@@ -2082,7 +2021,7 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/elastic/agent-skills.git",
-        "path": "skills/security"
+        "path": "plugins/security"
       },
       "description": "Elastic Security skills — alert triage, case management, detection rule management, and sample data generation",
       "version": "0.2.1",
@@ -2338,30 +2277,6 @@
       "license": "MIT"
     },
     {
-      "name": "flow",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/gmickel/flow-next.git",
-        "path": "plugins/flow"
-      },
-      "description": "Two-step planning + execution workflow with optional Beads integration. Includes 6 subagents, 5 commands, 7 skills.",
-      "version": "0.8.4",
-      "author": {
-        "username": "gmickel",
-        "name": "Gordon Mickel"
-      },
-      "category": "productivity",
-      "tags": [
-        "claude-code",
-        "plugin",
-        "workflow",
-        "planning",
-        "execution",
-        "other"
-      ],
-      "license": "MIT"
-    },
-    {
       "name": "fp-check",
       "source": {
         "source": "git-subdir",
@@ -2452,7 +2367,7 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "commands"
       ],
       "license": "MIT"
     },
@@ -2471,7 +2386,7 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "commands"
       ],
       "license": "MIT"
     },
@@ -2569,7 +2484,7 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "commands"
       ],
       "license": "MIT"
     },
@@ -2643,7 +2558,7 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "hooks"
       ],
       "license": "MIT"
     },
@@ -2764,7 +2679,7 @@
       },
       "category": "security",
       "tags": [
-        "skills"
+        "commands"
       ],
       "license": "MIT"
     },
@@ -2821,7 +2736,7 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "hooks"
       ],
       "license": "CC-BY-4.0"
     },
@@ -2959,7 +2874,8 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "mcp-servers",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -2978,7 +2894,8 @@
       },
       "category": "design",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -3035,7 +2952,7 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "hooks"
       ],
       "license": "MIT"
     },
@@ -3156,8 +3073,9 @@
     {
       "name": "nothing-design-skill",
       "source": {
-        "source": "github",
-        "repo": "dominikmartn/nothing-design-skill"
+        "source": "git-subdir",
+        "url": "https://github.com/dominikmartn/nothing-design-skill.git",
+        "path": "nothing-design"
       },
       "description": "UI generation skill in Nothing design language with dot matrix aesthetics",
       "version": "1.0.0",
@@ -3225,7 +3143,6 @@
       },
       "category": "other",
       "tags": [
-        "skills",
         "agents",
         "commands",
         "hooks"
@@ -3876,26 +3793,8 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
-      ],
-      "license": "MIT"
-    },
-    {
-      "name": "seatbelt-sandboxer",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/trailofbits/skills.git",
-        "path": "plugins/seatbelt-sandboxer"
-      },
-      "description": "Generate minimal macOS Seatbelt sandbox configurations for applications",
-      "version": "1.0.0",
-      "author": {
-        "username": "trailofbits",
-        "name": "Spencer Michaels"
-      },
-      "category": "development",
-      "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -4027,25 +3926,6 @@
         "name": "Scott Arciszewski"
       },
       "category": "security",
-      "tags": [
-        "skills"
-      ],
-      "license": "MIT"
-    },
-    {
-      "name": "skill-improver",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/trailofbits/skills.git",
-        "path": "plugins/skill-improver"
-      },
-      "description": "Automatically reviews and fixes Claude Code skills through iterative refinement until they meet quality standards. Requires plugin-dev plugin.",
-      "version": "1.0.1",
-      "author": {
-        "username": "trailofbits",
-        "name": "Paweł Płatek"
-      },
-      "category": "development",
       "tags": [
         "skills"
       ],
@@ -4473,8 +4353,9 @@
     {
       "name": "understand-anything",
       "source": {
-        "source": "github",
-        "repo": "Lum1104/Understand-Anything"
+        "source": "git-subdir",
+        "url": "https://github.com/Lum1104/Understand-Anything.git",
+        "path": "understand-anything-plugin"
       },
       "description": "Skills that turn any codebase into an interactive knowledge graph",
       "version": "1.0.0",
@@ -4546,25 +4427,6 @@
       "license": "MIT"
     },
     {
-      "name": "workflow-skill-design",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/trailofbits/skills.git",
-        "path": "plugins/workflow-skill-design"
-      },
-      "description": "Teaches design patterns for workflow-based Claude Code skills and provides a review agent for auditing existing skills",
-      "version": "1.0.1",
-      "author": {
-        "username": "trailofbits",
-        "name": "Benjamin Samuels"
-      },
-      "category": "security",
-      "tags": [
-        "skills"
-      ],
-      "license": "MIT"
-    },
-    {
       "name": "wshobson-accessibility-compliance",
       "source": {
         "source": "git-subdir",
@@ -4598,7 +4460,8 @@
       },
       "category": "data",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -4636,7 +4499,8 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -4655,7 +4519,8 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -4674,7 +4539,7 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -4693,7 +4558,7 @@
       },
       "category": "security",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -4807,7 +4672,8 @@
       },
       "category": "documentation",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -4826,7 +4692,8 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -4845,7 +4712,8 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -4864,7 +4732,8 @@
       },
       "category": "testing",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -4883,7 +4752,7 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -4902,7 +4771,8 @@
       },
       "category": "data",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -4921,7 +4791,7 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -4959,7 +4829,7 @@
       },
       "category": "data",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -4978,7 +4848,8 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5016,7 +4887,8 @@
       },
       "category": "data",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5035,7 +4907,8 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5054,7 +4927,8 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5073,7 +4947,7 @@
       },
       "category": "devops",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -5092,7 +4966,8 @@
       },
       "category": "devops",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5130,7 +5005,8 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5168,7 +5044,8 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5187,7 +5064,8 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5244,7 +5122,8 @@
       },
       "category": "security",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5263,7 +5142,8 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5282,7 +5162,7 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -5320,7 +5200,8 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5396,7 +5277,7 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -5415,7 +5296,7 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -5491,7 +5372,8 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5548,7 +5430,8 @@
       },
       "category": "testing",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5605,7 +5488,8 @@
       },
       "category": "security",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5643,7 +5527,7 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -5662,7 +5546,7 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -5681,7 +5565,7 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
@@ -5738,7 +5622,8 @@
       },
       "category": "productivity",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5757,7 +5642,8 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5776,7 +5662,8 @@
       },
       "category": "testing",
       "tags": [
-        "skills"
+        "agents",
+        "commands"
       ],
       "license": "MIT"
     },
@@ -5795,7 +5682,7 @@
       },
       "category": "development",
       "tags": [
-        "skills"
+        "agents"
       ],
       "license": "MIT"
     },
