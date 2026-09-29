@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-26T17:31:39.973Z",
+  "generated_at": "2026-09-29T19:01:13.625Z",
   "source": "goatcounter",
   "range": {
     "start": "2024-01-01T00:00:00Z",
-    "end": "2026-09-26T17:31:38.181Z"
+    "end": "2026-09-29T19:01:11.906Z"
   },
   "plugins": {
     "caveman": 16,
-    "agent-teams": 8,
+    "agent-teams": 9,
     "iconify": 7,
-    "ani-skills": 6,
+    "ani-skills": 7,
     "abstract": 6,
     "gt-sdlc": 4,
     "bmad-plugin": 4,
@@ -22,6 +22,7 @@
     "plugin-eval": 2,
     "gauntlet": 2,
     "compound-engineering": 2,
+    "sutras": 2,
     "hermes-tweet": 2,
     "astral-plugins": 2,
     "elixir-ls": 2,
@@ -42,11 +43,9 @@
     "imax-view": 1,
     "llm-box": 1,
     "reimagine-it": 1,
-    "skill-improver": 1,
     "claude-k8s-plugin": 1,
     "gstack": 1,
     "cartograph": 1,
-    "sutras": 1,
     "usage-estimate": 1,
     "numman-ali-orchestration": 1,
     "business-growth-skills": 1,
@@ -56,7 +55,6 @@
     "mcp-toolkit": 1,
     "attune": 1,
     "minister": 1,
-    "c-level-skills": 1,
-    "ask-questions-if-underspecified": 1
+    "c-level-skills": 1
   }
 }
